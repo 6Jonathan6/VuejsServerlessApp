@@ -1,0 +1,103 @@
+#header-caption{
+    /* border: 1px solid whitesmoke; */
+    text-align:center;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+header{
+    background-image:url('../assets/rsz_cosmos.png'),linear-gradient(#16222A,#3A6073);
+        background-size:cover;
+        background-origin:center;
+        background-repeat:repeat-y; 
+        background-position:center 50%;
+        background-origin:border-box;
+        background-attachment: fixed;
+    margin: 0%;
+    padding: 0% 1%;
+    text-align: center;
+    font-size: inherit;
+    min-height:100vh;
+}
+ 
+
+h1 {
+    width: 99%;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Love Ya Like A Sister',cursive;
+    font-weight: 400;
+    text-align: center;
+    color: chocolate;
+    font-size: 5rem;
+    top:25%;
+}
+h1:hover{
+    color:coral;
+}
+
+h1 > sub{
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    color: coral;
+}
+h1 sub:hover{
+    color: chocolate;
+}
+p{
+    width: 100%;
+    font-family: 'Cousine', monospace;
+    font-weight:400;
+    font-size: 2rem;
+    padding: 0%;
+    margin: 0%;
+    margin-top:2%; 
+    color:ghostwhite;
+}
+table{
+    width: 99%;
+    float: bottom;
+    margin-top: 1rem;
+    }
+td{
+    font-size:2rem;
+}
+a{
+    color: skyblue;
+    text-decoration: underline;
+
+}
+tr > td {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+tr > td button{
+    width: 150px;
+    height: 75px;
+    background-color: green;
+    border-radius: 1rem;
+}
+td +td{
+    text-align: left;
+    padding-left:0.5rem;
+}
+@media only screen and (min-width:600px) {
+#header-caption{
+position: relative;
+top:5%;
+}
+h1{
+    font-size: 5.5rem;
+}
+}
+@media only screen and (max-width:600px){
+#header-caption{
+position: relative;
+top:1%;
+}
+h1{
+    font-size: 3.5rem;
+}
+p{
+    display: none;
+}
+}

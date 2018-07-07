@@ -1,0 +1,122 @@
+.form-conteiner{
+    padding-top: 12%;
+    width: 100%;
+    background:linear-gradient(#1A2980,#26D0CE);
+    min-height: 100vh;
+}
+
+.form-conteiner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-conteiner li{
+    /* outline: solid 1px black; */
+    text-align: left;
+    margin-top:0.5rem;
+}
+.form-conteiner li  input{
+    margin-top:0.25rem;
+}
+.form-conteiner form{
+    top:8%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:0 auto;
+    min-width: 280px;
+    max-width: 70%;
+    /* outline: solid 1px black; */
+    /* border:1px black; */
+
+}
+.form-conteiner fieldset{
+    margin:0 auto;
+    border: none;
+}
+.form-conteiner label{
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    color: #4b3605;
+    
+}
+.form-conteiner input{
+    border: 1px;
+    border-radius: 5%;
+    font-weight: 300;
+    font-size: 1rem;
+    color: black;
+    width: 50%;
+    max-width:500px;
+    min-width:90%;
+    height: 1.5rem;
+}
+.form-conteiner input[type='text']:focus, .form-conteiner input[type='password']:focus, .form-conteiner input[type='email']:focus, .form-conteiner input[type="number"]:focus{
+    border: 1px solid green;
+    background-color: antiquewhite;
+}
+
+.form-conteiner input[type='text']:invalid,.form-conteiner input[type='password']:invalid,.form-conteiner input[type='email']:invalid,.form-conteiner input[type="number"]:invalid{
+    border: 1px solid red;
+    background-color:plum;
+}
+.form-conteiner input[type='text']:valid, .form-conteiner input[type='password']:valid, .form-conteiner input[type='email']:valid, .form-conteiner input[type="number"]:valid{
+    border: 1px solid greenyellow;
+    background-color:burlywood;
+}
+.form-conteiner input[type='submit']{
+    width: 70px;
+    height: 70px;
+    min-width: 30px;
+    border-radius: 25%;
+    font-size: 1rem;
+    font-family: 'Oswald';
+    font-weight: 400;
+    background: #855d00;
+    color: #26D0CE;
+    border:thick outset gray;
+
+}
+.form-conteiner input[type='submit']:hover{
+    background: yellowgreen;
+    color:rgb(18, 156, 248);
+}
+.form-conteiner input[type='submit']:active{
+    background: #26D0CE;
+    color:black;
+}
+.form-conteiner legend{
+    font-family: 'Concert One', cursive;    
+    padding: 0;
+    margin: 0 auto;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #80ff78;
+    text-shadow: 7px 1px #3c3a3a;
+}
+.help ul {
+    list-style: circle;
+    color: #fffeaf;
+}
+.help {
+    /* border: 1px solid black; */
+    padding-left: 17%;
+}
+.help p {
+   font-style: 'Patua One', cursive;
+   color: #4b3605;
+   font-weight: 400;
+   font-size: 1.2rem;
+   position: static;
+}
+
+@media only screen and (max-width:450px) {
+   .confirmform legend{
+       font-size: 2.5rem;
+   }
+   .confirmform label{
+       font-size:1.5rem;
+   }
+}

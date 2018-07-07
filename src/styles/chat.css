@@ -1,0 +1,109 @@
+div{
+    margin: 0;
+}
+#chat{
+    min-height: 100vh;
+    max-height: 100vh;
+    /* max-width: 100%; */
+    background: #171415;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+div.conversation{
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;
+    overflow-y: scroll;
+    position: absolute;
+}
+#logout{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border-radius: 1rem;
+}
+
+div.sendMessage{
+    margin: 0 auto;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 5px outset gainsboro;
+    border-left: 1px outset gainsboro;
+    border-top: 1px outset rgb(206, 192, 192);
+    border-right: 5px outset rgb(206, 192, 192);
+    background-color:transparent;
+    width: 95%;
+    height: 20%;
+    /* min-height: 100px; */
+    box-sizing: border-box;
+    bottom:0%;
+    position: absolute
+}
+
+.sendMessage form{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    min-width: 150px;
+}
+
+.sendMessage fieldset{
+    margin: 0;
+    padding: 0;
+    border:none;
+    display: inline;
+}
+
+.sendMessage form ul{
+    list-style: none;
+    margin: 0;
+}
+
+.sendMessage form ul li{
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+}
+.sendMessage input[type="submit"]{
+    font-size: 1rem;
+    width: 60px;
+    height:60px;
+    border: 5px outset gray;
+    border-radius: 25%;
+    float: right;
+    box-sizing: border-box;
+
+
+}
+
+.sendMessage textarea{
+    width:calc(100% - 100px);
+    height:70px;
+    font-size: 1.5rem;
+    font-family:'Itim', cursive;
+    float: left;
+    margin: 0;
+    overflow: scroll;
+    box-sizing: border-box;
+    background:transparent;
+    color: antiquewhite;
+}
+.conversation p {
+    color:black;
+    width: 80%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
+    font-weight:400;
+    background-color: cyan;
+    border-radius: 1rem;
+    border: 2px outset #cfe3e3;
+    display: block;
+    padding: 1px 1rem;
+    margin: 1rem;
+    overflow-wrap: break-word;
+}
